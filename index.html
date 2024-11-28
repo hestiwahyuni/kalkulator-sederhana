@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kalkulator Sederhana</title>
+    <link rel="stylesheet" href="Tugas6.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Kalkulator Sederhana</h1>
+        <div>
+            <input type="number" id="angka1" placeholder="Angka Pertama">
+            <input type="number" id="angka2" placeholder="Angka Kedua">
+        </div>
+        <div>
+            <select id="operator">
+                <option value="+">Penjumlahan</option>
+                <option value="-">Pengurangan</option>
+                <option value="*">Perkalian</option>
+                <option value="/">Pembagian</option>
+            </select>
+        </div>
+        <button onclick="hitung()">Hitung</button>
+        <div>
+            <input type="text" id="hasil" placeholder="Hasil" readonly>
+        </div>
+        <div class="info">
+            <p>Selamat datang di kalkulator</p>
+            <P>Kelompok 1</p>
+        </div>
+    </div>
+    <script src="tugas6.js"></script>
+</body>
+</html>
